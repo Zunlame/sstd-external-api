@@ -1,13 +1,19 @@
+import { Experience } from "./experience";
+
 export class Profile {
 
     name: string;
-    title: string;
+    professionalTitle: string;
+    projectRole: string;
     linkedinUrl: string;
+    experiences: Experience[];
 
-    constructor(name: string, title: string, linkedinUrl: string) {
+    constructor(name: string, professionalTitle: string, projectRole: string, linkedinUrl: string, experiences: Experience[]) {
         this.name = name;
-        this.title = title;
+        this.professionalTitle = professionalTitle;
+        this.projectRole = projectRole;
         this.linkedinUrl = linkedinUrl;
+        this.experiences = experiences;
     }
 
 }
