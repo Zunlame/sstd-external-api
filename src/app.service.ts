@@ -26,7 +26,7 @@ export class AppService {
         "ee198a4e-482a-4e25-bf81-91b58c97dd5d", 
         new Profile(
           "Kévin Crouillere", 
-          "Responsable d'application chez Worldline Global", 
+          "Ingénieur logiciel senior chez SOFTEAM", 
           "Co-fondateur",
           "https://fr.linkedin.com/in/k%C3%A9vin-crouillere-252032a9",
           [
